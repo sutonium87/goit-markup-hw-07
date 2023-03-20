@@ -1,0 +1,32 @@
+.features {
+  margin-top: 94px;
+  &__item {
+    width: 270px;
+  }
+  &__item-logo {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--brand-color-ghost);
+  }
+  &__item-icon {
+    width: 70px;
+    height: 70px;
+  }
+  &__item-title {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--brand-color-titles);
+    margin-top: 20px;
+  }
+  &__item-description {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-gray-light);
+    margin-top: 10px;
+  }
+}

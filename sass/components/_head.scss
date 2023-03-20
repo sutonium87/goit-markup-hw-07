@@ -1,0 +1,32 @@
+.head {
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url("../images/Hero-Background.jpg") no-repeat;
+    background-size: cover;
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__title {
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 1.36;
+      text-align: center;
+      letter-spacing: var(--brand-letter-spacing);
+      text-transform: uppercase;
+      color: var(--brand-color-white);
+      padding-top: 200px;
+      width: 696px;
+    }
+    &__application-button {
+      margin: 30px auto 200px auto;
+      justify-content: center;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &__application-button:hover,
+    &__application-button:focus {
+      color: var(--brand-color-blue);
+      background-color: var(--brand-color-white);
+    }
+  }
